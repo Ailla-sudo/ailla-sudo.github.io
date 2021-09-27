@@ -30,7 +30,7 @@
 <meta property="og:image" content="http://60.205.195.9/usr/uploads/2020/12/4290054446.png">
 <meta property="og:image" content="http://60.205.195.9/usr/uploads/2020/12/3717262633.png">
 <meta property="article:published_time" content="2021-09-25T15:23:16.000Z">
-<meta property="article:modified_time" content="2021-09-27T09:32:31.636Z">
+<meta property="article:modified_time" content="2021-09-27T09:42:11.381Z">
 <meta property="article:author" content="雯异">
 <meta property="article:tag" content="[object Object]">
 <meta name="twitter:card" content="summary">
@@ -200,7 +200,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-27 17:32:31" itemprop="dateModified" datetime="2021-09-27T17:32:31+08:00">2021-09-27</time>
+                <time title="修改时间：2021-09-27 17:42:11" itemprop="dateModified" datetime="2021-09-27T17:42:11+08:00">2021-09-27</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -226,11 +226,16 @@
         <h3 id="一、邻接矩阵："><a href="#一、邻接矩阵：" class="headerlink" title="一、邻接矩阵："></a>一、邻接矩阵：</h3><p>（1）优点：</p>
 <ul>
 <li>便于判断两个顶点之间是否有边</li>
-<li>便于计算各个顶点的度：对于无向图，第i行元素之和就是顶点i的度；对于有向图，第i行元素之和就是顶点i的出度，第i列元素之和就是顶点i的入度<span id="more"></span>
-（2）缺点：</li>
+<li>便于计算各个顶点的度：对于无向图，第i行元素之和就是顶点i的度；对于有向图，第i行元素之和就是顶点i的出度，第i列元素之和就是顶点i的入度<span id="more"></span></li>
+</ul>
+<p>（2）缺点：</p>
+<ul>
 <li>不便于增加和删除顶点</li>
 <li>不便于统计边的数目，需扫描所有元素，时间复杂度为O(n^2)</li>
-<li>空间复杂度高，对于稀疏图而言尤其浪费空间<br>（3）算法分析：</li>
+<li>空间复杂度高，对于稀疏图而言尤其浪费空间</li>
+</ul>
+<p>（3）算法分析：</p>
+<ul>
 <li>时间复杂度：O(n^2)</li>
 <li>空间复杂度：O(n^2)，对于无向图，规模较大的邻接矩阵可以采用压缩存储的方法，仅存储下三角或上三角的元素</li>
 </ul>
